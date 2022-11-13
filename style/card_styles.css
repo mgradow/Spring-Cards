@@ -1,0 +1,83 @@
+html {
+    background-color: #F5EC4B;
+}
+
+.masthead {
+    background: #CD82DB;
+    height: 75px;
+    border: 2px #6B55B8 solid;
+    border-radius: 5px;
+  }
+  .centeredText {
+      text-align: center;
+  }
+  .site-title {
+    color: #063D13;
+  }
+
+  .centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-title {
+    color: #063D13;
+  }
+  .main-area {
+      border: 4px dotted #F56949;
+      border-radius: 5px;
+      margin-top: 20px;
+  
+  background-color: #F5AEA1;
+  }
+
+.card {
+  display: inline-flex;
+    background: #6B55B8;
+    margin-bottom: 2em;
+    border: 2px #40F525 solid;
+    border-radius: 15px;
+    width: 600px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 40px green;
+    flex-direction: row;
+  }
+  .card a {
+    color: #00B8F5;
+    text-decoration: none;
+  }
+  .card a:hover {
+    box-shadow: 10px 10px 10px pink;
+  }
+  .card-content {
+    padding: 1.4em;
+  }
+  .card-content h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+  }
+  .card-content p {
+    font-size: 95%;
+    font-weight: bolder;
+  }
+  .pixHolder {
+    text-align: center;
+  }
+
+  .a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+@media screen and (max-width: 1920px) {
+  .main-area {
+    font-size: x-large;
+  }
+
+}
+@media screen and (max-width: 1836px) {
+  .card {
+    width: 900px;
+    font-size: x-large;
+  }
+
+}
